@@ -1,0 +1,16 @@
+{
+"companyName": "Studio 23D",
+"productName": "Ontwikkelink",
+"productVersion": "3.2.5.2",
+"dataUrl": "Ontwikkelink.data.unityweb",
+"wasmCodeUrl": "Ontwikkelink.wasm.code.unityweb",
+"wasmFrameworkUrl": "Ontwikkelink.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.3.6f1"
+}

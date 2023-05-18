@@ -1,0 +1,122 @@
+*
+{
+  margin:0;padding:0;
+}
+
+html,body
+{
+    height:100%;
+}
+body
+{
+  margin: 0 auto;
+}
+
+
+#section-1-wrap
+{
+  background-color: #333;
+}
+
+.about
+{
+  color: grey;
+  width: 85%;
+  max-width: 120rem;
+  margin: 0 auto;
+  font-size: 2.25vw;
+  align-self: center;
+  padding: 15.2rem 0 10rem;
+  font-family: 'Sarabun', sans-serif;
+}
+
+.infobutton
+{
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  position: absolute;
+  left: 7.5%;
+  bottom: -1.1rem;
+  display: flex;
+  transition: opacity 1s;
+  opacity: 1;
+}
+
+.hidden
+{
+  opacity: 0;
+}
+
+.arrow
+{
+  margin: 0 auto;;
+  text-decoration: none;
+  display: block;
+  color: black;
+  font-size: 32px;
+  padding-top: .2rem;
+}
+
+#section-2-wrap
+{
+  background-color: #787c84;
+}
+
+.highlight
+{
+  position: relative;
+  overflow: hidden;
+}
+
+.highlight_player
+{
+  background-color: black;
+  overflow: hidden;
+  position: relative;
+}
+
+.video
+{
+  margin: 0 auto;
+  display: block;
+  height: 100%;
+}
+
+.highlight_games_section
+{
+  background-color: #d9d9d9;
+  font-family: 'Sarabun', sans-serif;
+}
+
+.highlight_game
+{
+  width: 33%;
+  float: left;
+}
+
+.highlight_game > a > img
+{
+  width: 100%;
+}
+
+.titel
+{
+  height: 50px;
+}
+
+.titel > p
+{
+  margin-left: 0.5rem;
+  font-size: 1vw;
+}
+
+@media screen and (max-width: 1055px)
+{
+
+  .about
+  {
+    font-size: 1.5rem
+  }
+
+}

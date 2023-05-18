@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'buildingcondensed_medium';
+    src: url('../Fonts/adam.cg_pro-webfont.woff2') format('woff2'),
+         url('../Fonts/adam.cg_pro-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.site-header
+{
+  min-height: 15%;
+  align-items: center;
+  transition: all .25s cubic-bezier(.555,.205,.295,.975);
+  display: flex;
+  z-index: 1;
+}
+
+.header-wrap
+{
+  position:fixed;
+  width: 100%;
+  z-index: 10000000;
+}
+
+.nav-bar
+{
+  padding-top: 4rem;
+  padding-bottom: .5rem;
+  transition: all .25s cubic-bezier(.555,.205,.295,.975);
+  margin: 0 auto;
+  max-width: 120rem;
+  width: 85%;
+  align-items: center;
+  flex-wrap: nowrap;
+  display: flex;
+}
+
+.nav-bar-left
+{
+  flex: 1 1 auto;
+  margin-right: auto;
+}
+
+.nav-bar-right
+{
+  flex: 0 1 auto;
+  margin-left: auto;
+}
+
+.responsive-icon
+{
+  display: none;
+}
+
+.responsive-menu-item
+{
+  display: none;
+}
+
+.menu-item
+{
+  margin-left: 4rem;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif; 
+  font-size: 28px;
+}
+
+.icon
+{
+  border: 3.5px solid white;
+  color: white;
+  font-size: 24px;
+  font-family: 'buildingcondensed_medium';
+  display: inline-block;
+  padding: 0.1em;
+}
+
+.shrink
+{
+  background: #f4f4f4;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.shrink-container
+{
+  padding-top: .5rem;
+}
+
+.shrink-icon
+{
+  border: 3.5px solid black;
+  color: black;
+}
+
+@media screen and (max-width: 1055px)
+{
+  .shrink
+  {
+    background: #f4f4f4;
+    box-shadow: none;
+  }
+
+  .menu-item
+  {
+    display: none;
+    margin-left: 0;
+  }
+  .nav-bar
+  {
+    padding-top: 1rem;
+  }
+  .responsive-menu-wrap
+  {
+    transition: transform .5s ease-in-out,-webkit-transform .5s ease-in-out;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #f4f4f4;
+    z-index: 1000000;
+  }
+  .responsive-menu
+  {
+    height: 100vh;
+    padding: 0;
+    width: 85%;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    list-style: none;
+    position: relative;
+    display: flex;
+  }
+
+  .responsive-icon
+  {
+    display: block;
+  }
+
+  .responsive-menu-item
+  {
+    display: block;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+}

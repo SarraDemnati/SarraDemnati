@@ -1,0 +1,53 @@
+.footer-wrap
+{
+  display: block;
+  height: 250px;
+  background-color: #333;
+}
+
+.socialmedia-container
+{
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 85%;
+  max-width: 120rem;
+  border-bottom: 1px solid #4d4d4d;
+}
+
+.footer
+{
+  align-items: center;
+}
+
+.socialmedia_icons
+{
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.socialmedia_icon
+{
+  height: 32px;
+  width: auto;
+  margin-left: 1rem;
+}
+
+.owner-wrap
+{
+  display: flex;
+  align-items: center;
+  background-color: #333;
+}
+
+.owner
+{
+  color: white;
+  margin: 0 auto;
+  align-items: center;
+  float: left;
+  padding-top: 1rem;
+}
