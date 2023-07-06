@@ -1,14 +1,23 @@
-var o = document.getElementById("scroll");
-var l = document.getElementById("item");
 
-o.style.width = o.childElementCount/4*100+"%";
-
-var p = o.offsetWidth/o.childElementCount;
-
-var m = document.getElementsByClassName("highlight_active");
-var dots = document.getElementsByClassName("highlight_strip_item");
-
+var o;
+var l;
+var p;
+var m;
+var dots;
 var left = 0;
+
+window.onload = function()
+{
+  o = document.getElementById("scroll");
+  l = document.getElementById("item");
+
+  o.style.width = o.childElementCount/4*100+"%";
+
+  p = o.offsetWidth/o.childElementCount;
+
+  m = document.getElementsByClassName("highlight_active");
+  dots = document.getElementsByClassName("highlight_strip_item");
+};
 
 function HighlightButtonLeft()
 {
@@ -65,5 +74,5 @@ function showHighlight()
 
 window.setInterval(function()
 {
-  //currentHighlight(newIndex + 1);
+  currentHighlight(newIndex + 1);
 }, 10000);
