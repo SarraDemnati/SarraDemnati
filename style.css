@@ -422,6 +422,43 @@
 }
 
 
+.button
+{
+  background-color: #333;
+  padding: .2rem;
+  float: left;
+  font-size: 21px;
+  color: white;
+  top: 0;
+  transition: top 0.2s;
+  position: relative;
+  font-family: 'Lobster', cursive;
+}
+
+.button:hover
+{
+  color: orange;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  top: -5px;
+}
+
+.inner_button
+{
+    border: solid 1px white;
+    padding: .1rem 1rem;
+}
+
+.inner_button p
+{
+    margin: 2px;
+}
+
+.inner_button:hover
+{
+    border: solid 1px orange;
+}
+
+
 @media screen and (max-width: 1055px)
 {
   .shrink
