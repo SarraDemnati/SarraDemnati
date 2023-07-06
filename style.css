@@ -92,6 +92,24 @@
       margin-left: 30px;
       text-align: left;
     }
+
+    .gamepage
+    {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .gamepage_text
+    {
+      max-width: 50%;
+    }
+
+    .gamepage_text p
+    {
+      text-align: left;
+      margin-left: 30px;
+    }
+
     .content-me img
     {
       width: 50%
@@ -281,23 +299,6 @@
   width: 85%;
   padding-top: 4rem;
   padding-bottom: 4rem
-}
-
-.rightcol
-{
-  width: 25%;
-  float: right;
-  background: white;
-  height: 600px;
-}
-
-.leftcol
-{
-  float: left;
-  background: #333;
-  max-height: 600px;
-  width: 70%;
-  margin-bottom: 2rem;
 }
 
 .highlight
