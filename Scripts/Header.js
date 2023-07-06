@@ -19,7 +19,7 @@ function scrollFunction()
     if (y.className == " nav-bar"){ y.className += " shrink-container"; }
     if (z.className == " icon"){ z.className += " shrink-icon"; }
 //    if (b.className == " infobutton"){ b.className += " hidden"; }
-    for (var i = 0; i < menuItem.length; i++){ menuItem[i].style.color = "black"; }
+    for (var i = 0; i < menuItem.length; i++){ menuItem[i].style.color = "#83685b"; }
     a.style.backgroundColor = "#f4f4f4";
   }
   else

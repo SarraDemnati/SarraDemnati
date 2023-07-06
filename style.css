@@ -14,12 +14,18 @@
       background-color: #83685b;
       color: #fff;
       padding: 20px;
-      text-align: center;
     }
+
     .content_page
     {
       position: relative;
-      top: -25vh;
+      top: -15vh;
+    }
+
+    .hero-content video
+    {
+      width: 100%;
+      border-radius: 10%
     }
 
     img
@@ -27,11 +33,12 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
+      border-radius: 10%
     }
 
     .content_wrapper
     {
-        max-width: 800px;
+        max-width: 1173px;
         display: flex;
         justify-content: space-around;
         margin: 60px auto;
@@ -41,7 +48,7 @@
     .line
     {
         height: 2px;
-        background-color: black;
+        background-color: white;
         width: 100%;
     }
 
@@ -52,10 +59,28 @@
       height: 100%;
     }
 
+    .line-content
+    {
+      width: 30%;
+      height: 500px;
+    }
+
     .content
     {
-      width: 20%;
-      height: 225px;
+      display: flex;
+      justify-content: center;
+      width: 30%;
+      height: 500px;
+    }
+
+    .game_content{
+      display: flex;
+      align-items: center;
+      height: 100%;
+    }
+
+    .game_content p{
+      width: 100%;
     }
 
     .container {
@@ -71,7 +96,8 @@
     }
 
     p {
-      font-size: 18px;
+      font-size: 20px;
+      font-family: 'Arvo', serif;
       margin-bottom: 10px;
     }
 
@@ -102,7 +128,7 @@
     }
 
     .hero-content {
-      max-width: 600px;
+      max-width: 1173px;
       margin: 0 auto;
       padding: 20px;
     }
@@ -174,7 +200,7 @@
   color: white;
   text-transform: uppercase;
   text-decoration: none;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Lilita One', cursive;
   font-size: 28px;
 }
 
@@ -188,9 +214,14 @@
   padding: 0.1em;
 }
 
+.icon p
+{
+  margin: 0;
+}
+
 .shrink
 {
-  background: #f4f4f4;
+  background: #e7d7c9;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -201,8 +232,8 @@
 
 .shrink-icon
 {
-  border: 3.5px solid black;
-  color: black;
+  border: 3.5px solid #83685b;
+  color: #83685b;
 }
 
 @media screen and (max-width: 1055px)
