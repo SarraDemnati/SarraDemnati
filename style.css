@@ -22,6 +22,16 @@
       top: -15vh;
     }
 
+    .content-me img
+    {
+      width: 50%;
+    }
+
+    .content-me p
+    {
+      width: 50%;
+    }
+
     .hero-content video
     {
       width: 100%;
