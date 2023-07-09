@@ -17,6 +17,8 @@ window.onload = function()
 
   m = document.getElementsByClassName("highlight_active");
   dots = document.getElementsByClassName("highlight_strip_item");
+
+  showHighlight();
 };
 
 function HighlightButtonLeft()

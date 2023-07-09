@@ -379,7 +379,7 @@
 
 .highlight_strip_item:hover
 {
-  opacity: 1 !important;
+  opacity: .8 !important;
 }
 
 .highlight_button_left
