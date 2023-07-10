@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo&family=Lilita+One&display=swap" rel="stylesheet">
+<body>
+
+<div class="header-wrap">
+  <header class="site-header" id="site-header">
+    <div class="nav-bar" id="nav-bar">
+      <div class="nav-bar-left">
+        <div class="icon" id="icon">
+          <p>Sarra Demnati</p>
+          <p>GAME DEVELOPER</p>
+        </div>
+      </div>
+      <div class="nav-bar-right">
+        <div class="menu">
+          <a class="menu-item responsive-icon" href="javascript:void(0);"  onclick="myFunction()">&#9776;</a>
+          <a class="menu-item" href="index.html">Home</a>
+          <a class="menu-item" href="myProjects.html">Projects</a>
+          <a class="menu-item" href="Aboutme.html">About</a>
+        </div>
+      </div>
+    </div>
+  </header>
+</div>
+<div class="responsive-menu-wrap" id="responsive-menu-wrap">
+  <div class="responsive-menu">
+    <a class="menu-item responsive-menu-item" href="index.html">Home</a>
+    <a class="menu-item responsive-menu-item" href="myProjects.html">Projects</a>
+    <a class="menu-item responsive-menu-item" href="AboutMe.html">About</a>
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+<script src="Scripts/Header.js"></script>
+<script src="Scripts/highlightButton.js"></script>
+ <div class="hero-banner">
+   <div class="highlight">
+     <div class="highlight_player">
+       <div class="highlight_player_area">
+         <img id="highlight_spacer" src="Pictures/Spacer.png">
+       </div>
+       <iframe class="highlight_active highlight_movie" frameBorder="0" allowfullscreen src="https://www.youtube.com/embed/durGhOr6P-o">Browser not compatible.</iframe>
+       <img class="highlight_active" src="Pictures/CruseHiding.png">
+       <img class="highlight_active" src="Pictures/CursePuzzel.png">
+       <img class="highlight_active" src="Pictures/EscapeGame.png">
+     </div>
+     <div class="highlight_strip">
+       <div class="highlight_buttons">
+         <a href="javascript:void(0);"  onclick="HighlightButtonLeft()">
+           <div class="highlight_button_left">
+             <p class="arrow_left">&#9650;</p>
+           </div>
+         </a>
+         <a href="javascript:void(0);"  onclick="HighlightButtonRight()">
+           <div class="highlight_button_right">
+             <p class="arrow_right">&#9650;</p>
+           </div>
+         </a>
+       </div>
+       <div class="highlight_scroll" id="scroll">
+         <img class="highlight_strip_item" onclick="currentHighlight(0)" id="item" src="Pictures/TumbnailCurse.jpg">
+         <img class="highlight_strip_item" onclick="currentHighlight(1)" src="Pictures/CruseHiding.png">
+         <img class="highlight_strip_item" onclick="currentHighlight(2)" src="Pictures/CursePuzzel.png">
+         <img class="highlight_strip_item" onclick="currentHighlight(3)" src="Pictures/EscapeGame.png">
+       </div>
+     </div>
+   </div>
+   <div class="gamepage_text">
+     <h2>Curseborne</h2>
+     <p>
+       In this game, players assume the role of a young orphan who finds themselves trapped within the confines of an ominous orphanage. The primary objective is to navigate through the various rooms and corridors, seeking a means of escape. To accomplish this, players must engage with a variety of puzzles and challenges scattered throughout the orphanage.
+     </p>
+     <p>
+       These puzzles serve as gateways, requiring players to decipher clues, locate hidden objects, or solve intricate riddles in order to unlock doors and progress further into the building. For instance, one puzzle might entail searching for a concealed key within a specific room, which, once found, can be used to unlock a door leading to the next area.
+     </p>
+     <a href="https://github.com/demnats/EscapeStory">
+       <div class="button" style="margin-left: 1rem">
+         <div class="inner_button">
+           <p>git link</p>
+         </div>
+       </div>
+     </a>
+   </div>
+  </div>
+
+</body>
+</html>
